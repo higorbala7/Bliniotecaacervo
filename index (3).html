@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Minha Biblioteca</h1>
+
+        <form id="book-form">
+            <input type="text" id="title" placeholder="Título" required>
+            <input type="text" id="author" placeholder="Autor" required>
+            <input type="number" id="year" placeholder="Ano de Publicação" required>
+            <input type="text" id="genre" placeholder="Gênero" required>
+            <button type="submit">Adicionar Livro</button>
+        </form>
+
+        <h2>Livros Cadastrados</h2>
+        <ul id="book-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
